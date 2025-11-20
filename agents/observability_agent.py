@@ -1,4 +1,3 @@
-# agents/observability_agent.py
 from datetime import datetime
 import json
 
