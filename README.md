@@ -25,6 +25,10 @@ Extracts and summarizes PDF notes into short, clean summaries.
 # ✔ Tracker Agent  
 Stores assignments, deadlines, and task metadata using a simple memory structure.
 
+# ✔ Gemini LLM Integration
+EduFlow now uses Gemini 1.5 Flash for PDF summarization.  
+The notebook loads the API key securely from Kaggle Secrets and calls the Gemini model for high-quality summaries.
+
 # ✔ Planner Agent  
 Generates a daily plan using:
 - Class timetable  
