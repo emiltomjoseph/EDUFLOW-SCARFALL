@@ -1,4 +1,3 @@
-# agents/planner_agent.py
 from agents.tracker_agent import get_pending_assignments
 from agents.observability_agent import log_event
 
