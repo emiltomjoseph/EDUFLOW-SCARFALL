@@ -8,7 +8,7 @@ This project is submitted under the Concierge Agents Track.
 
 ---
 
-# 🚀 Project Overview
+# Project Overview
 
 Students often struggle with:
 - Long and unstructured study materials  
@@ -19,26 +19,26 @@ Students often struggle with:
 
 EduFlow solves these problems using a set of specialized agents working together.
 
-# ✔ Notes Agent  
+## Notes Agent  
 Extracts and summarizes PDF notes into short, clean summaries.
 
-# ✔ Tracker Agent  
+## Tracker Agent  
 Stores assignments, deadlines, and task metadata using a simple memory structure.
 
-# ✔ Gemini LLM Integration
+## Gemini LLM Integration
 EduFlow now uses Gemini 1.5 Flash for PDF summarization.  
 The notebook loads the API key securely from Kaggle Secrets and calls the Gemini model for high-quality summaries.
 
-# ✔ Planner Agent  
+## Planner Agent  
 Generates a daily plan using:
 - Class timetable  
 - Pending assignments  
 - Basic rule-based logic  
 
-# ✔ Search Agent  
+## Search Agent  
 Searches the web (DuckDuckGo HTML) for relevant study resources.
 
-# ✔ Observability Agent  
+## Observability Agent  
 Logs every action using structured JSON logs so judges can see reasoning & behavior.
 
 ---
